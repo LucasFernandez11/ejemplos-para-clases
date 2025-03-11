@@ -1,3 +1,20 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  overflow: hidden;
+}
 .cont {
     position: relative;
     height: 100vh;
@@ -293,20 +310,4 @@
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, #eed7ff 100%);
   }
   
-  html {
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-  }
   
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: #000;
-    overflow: hidden;
-  }

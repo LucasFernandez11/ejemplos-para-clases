@@ -24,7 +24,7 @@ h1:hover span:nth-child(2){
 } 
 
 
-h1:hover span{  
+/* h1:hover span{  
     color: #fff;  
     text-shadow:
 		0 0 5px rgba(0,178,255,1),
@@ -36,5 +36,18 @@ h1:hover span{
 		0 0 100px rgba(38,104,127,1),
 		0 0 140px rgba(38,104,127,1),
 		0 0 180px rgba(38,104,127,1);
+  } */
+h1:hover span{  
+    color: #fff;  
+    text-shadow:
+    0 0 5px rgba(255,0,0,1),
+    0 0 10px rgba(255,0,0,1),
+    0 0 20px rgba(255,0,0,1),
+    0 0 40px rgba(255,0,0,1),
+    0 0 80px rgba(255,0,0,1),
+    0 0 90px rgba(255,0,0,1),
+    0 0 100px rgba(255,0,0,1),
+    0 0 140px rgba(255,0,0,1),
+    0 0 180px rgba(255,0,0,1);
   }
 

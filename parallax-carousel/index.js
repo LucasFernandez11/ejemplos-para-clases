@@ -3,7 +3,7 @@ $(document).ready(function () {
     const $slider = $('.slider');
     const $nav = $('.nav');
     const winW = $(window).width();
-    const animSpd = 750; // Change also in CSS
+    const animSpd = 750; 
     const distOfLetGo = winW * 0.2;
     let curSlide = 1;
     let animation = false;
