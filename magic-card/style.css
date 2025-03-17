@@ -19,13 +19,13 @@
     padding-bottom: 2rem;
     box-sizing: border-box;
   }
-  
+  /* index */
   .card {
     background: #191c29;
     width: var(--card-width);
     height: var(--card-height);
     padding: 3px;
-    position: relative;
+    /* position: relative;
     border-radius: 6px;
     justify-content: center;
     align-items: center;
@@ -34,18 +34,21 @@
     font-size: 1.5em;
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
-    font-family: cursive;
+    font-family: cursive; */
   }
-  
+
   .card:hover {
     color: rgb(88 199 250 / 100%);
     transition: color 1s;
   }
+  /* fin index */
+  /* productos */
   .card:hover:before,
   .card:hover:after {
     animation: none;
     opacity: 0;
   }
+  /* fin productos */
   
   .card::before {
     content: "";
